@@ -271,49 +271,49 @@ _core.default.page({
       }
     });
   }
-}, {info: {"components":{"panel":{"path":"../components/panel"},"list":{"path":"../components/wepy-list"},"group":{"path":"../components/group"},"slide-view":{"path":"../$vendor/miniprogram-slide-view/miniprogram_dist/index"}},"on":{}}, handlers: {'171': {"tap": function proxyHandlerWithEvent ($event) {
+}, {info: {"components":{"panel":{"path":"../components/panel"},"list":{"path":"../components/wepy-list"},"group":{"path":"../components/group"},"slide-view":{"path":"../$vendor/miniprogram-slide-view/miniprogram_dist/index"}},"on":{}}, handlers: {'13': {"tap": function proxyHandlerWithEvent ($event) {
     var _vm=this;
       return (function () {
         _vm.handleViewTap($event)
       })();
     
-  }},'172': {"tap": function proxyHandler () {
+  }},'14': {"tap": function proxyHandler () {
     var _vm=this;
       return (function () {
         _vm.currentTime = +new Date()
       })();
     
-  }},'173': {"tap": function proxyHandlerWithEvent ($event) {
+  }},'15': {"tap": function proxyHandlerWithEvent ($event) {
     var _vm=this;
       return (function () {
         _vm.mixintap($event)
       })();
     
-  }},'174': {"tap": function proxyHandlerWithEvent ($event) {
+  }},'16': {"tap": function proxyHandlerWithEvent ($event) {
     var _vm=this;
       return (function () {
         _vm.communicate($event)
       })();
     
-  }},'175': {"tap": function proxyHandlerWithEvent ($event) {
+  }},'17': {"tap": function proxyHandlerWithEvent ($event) {
     var _vm=this;
       return (function () {
         _vm.tap($event)
       })();
     
-  }},'176': {"tap": function proxyHandlerWithEvent ($event) {
+  }},'18': {"tap": function proxyHandlerWithEvent ($event) {
     var _vm=this;
       return (function () {
         _vm.request($event)
       })();
     
-  }},'177': {"tap": function proxyHandler () {
+  }},'19': {"tap": function proxyHandler () {
     var _vm=this;
       return (function () {
         _vm.mynum++
       })();
     
-  }}}, models: {'13': {
+  }}}, models: {'1': {
       type: "input",
       expr: "inputmodel",
       handler: function set ($v) {

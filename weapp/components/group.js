@@ -34,7 +34,7 @@ _core.default.component({
       console.log("Clicked Group ".concat(index, ", ID is ").concat(this.grouplist.id));
     }
   }
-}, {info: {"components":{"groupitem":{"path":"groupitem"}},"on":{}}, handlers: {'182': {"tap": function proxyHandlerWithEvent ($event) {
+}, {info: {"components":{"groupitem":{"path":"groupitem"}},"on":{}}, handlers: {'24': {"tap": function proxyHandlerWithEvent ($event) {
     var _vm=this;
       return (function () {
         _vm.tap($event)

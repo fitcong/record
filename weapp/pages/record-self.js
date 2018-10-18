@@ -12,8 +12,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
-//
-//
 _core.default.page({
   onLoad: function onLoad() {}
 }, {info: {"components":{"toptab":{"path":"../components/toptab"}},"on":{}}, handlers: {}, models: {} });

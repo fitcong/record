@@ -35,13 +35,13 @@ _core.default.component({
     }
   },
   onLoad: function onLoad() {}
-}, {info: {"components":{},"on":{}}, handlers: {'180': {"tap": function proxyHandlerWithEvent ($event) {
+}, {info: {"components":{},"on":{}}, handlers: {'22': {"tap": function proxyHandlerWithEvent ($event) {
     var _vm=this;
       return (function () {
         _vm.add($event)
       })();
     
-  }},'181': {"tap": function proxyHandlerWithEvent ($event) {
+  }},'23': {"tap": function proxyHandlerWithEvent ($event) {
     var _vm=this;
       return (function () {
         _vm.tap($event)

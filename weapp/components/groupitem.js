@@ -26,7 +26,7 @@ _core.default.component({
       console.log("Item ".concat(index, ", ID is ").concat(this.gitem.childid));
     }
   }
-}, {info: {"components":{},"on":{}}, handlers: {'183': {"tap": function proxyHandlerWithEvent ($event) {
+}, {info: {"components":{},"on":{}}, handlers: {'25': {"tap": function proxyHandlerWithEvent ($event) {
     var _vm=this;
       return (function () {
         _vm.tap($event)

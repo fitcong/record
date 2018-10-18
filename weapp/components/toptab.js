@@ -71,13 +71,13 @@ _core.default.component({
     console.log(this.leftRectPosition);
   },
   methods: {}
-}, {info: {"components":{},"on":{}}, handlers: {'178': {"tap": function proxyHandlerWithEvent ($event) {
+}, {info: {"components":{},"on":{}}, handlers: {'20': {"tap": function proxyHandlerWithEvent ($event) {
     var _vm=this;
       return (function () {
         _vm.back($event)
       })();
     
-  }},'179': {"tap": function proxyHandlerWithEvent ($event) {
+  }},'21': {"tap": function proxyHandlerWithEvent ($event) {
     var _vm=this;
       return (function () {
         _vm.backHome($event)

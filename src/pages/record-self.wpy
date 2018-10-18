@@ -2,7 +2,7 @@
 .container{}
 </style>
 <template>
-  <view class='container'>
+  <view class="container">
     <toptab></toptab>
   </view>
 </template>
