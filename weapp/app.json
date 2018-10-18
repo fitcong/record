@@ -1,0 +1,15 @@
+{
+    "pages": [
+        "pages/record-self",
+        "pages/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+    },
+    "component": true,
+    "usingComponents": {}
+}

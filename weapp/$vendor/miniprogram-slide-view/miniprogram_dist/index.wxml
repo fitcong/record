@@ -1,0 +1,11 @@
+
+<movable-area style="width: {{width}}rpx; height: {{height}}rpx;" class="container">
+  <movable-view direction="horizontal" out-of-bounds="{{out}}" damping="20" x="{{x}}" inertia="" bindtouchend="onTouchEnd" bindtouchstart="onTouchStart" bindchange="onChange" style="width: {{width + slideWidth}}rpx; height: {{height}}rpx;" class="movable-view">
+    <view class="left">
+      <slot name="left"></slot>
+    </view>
+    <view class="right">
+      <slot name="right"></slot>
+    </view>
+  </movable-view>
+</movable-area>

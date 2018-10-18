@@ -1,0 +1,73 @@
+<style lang='less'>
+.top-title {
+  width: 100vw;
+  position: relative;
+  background-color: #fff;
+  z-index: 99999;
+  .tt__status {
+    width: 100vw;
+  }
+  .tt__main {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    &__back {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: 100%;
+      .arrow {
+        height: 20px;
+        width: 20px;
+        padding-left: 10px;
+        padding-right: 5px;
+      }
+      .separate {
+        height: 20px;
+        width: 1.5px;
+        background: #333;
+      }
+      .home {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+</style>
+<template>
+  <view class="top-title">
+    <view class="tt__status" style=" height:{{topInfo.statusBarHeight}}px;"></view>
+    <view class="tt__main">
+      <view class="tt__main__back">
+        <image class="arrow" @tap="back" src="/images/back-black.png" mode="aspectFill"></image>
+        <view class="separate"></view>
+        <image class="home" @tap="backHome" src="/images/home-black.png" mode="aspectFill"></image>
+      </view>
+    </view>
+  </view>
+</template>
+<script>
+import wepy from '@wepy/core';
+wepy.component({
+  data: {
+    topInfo: {
+      statusBarHeight: 20,
+    },
+    leftRectPosition: {},
+  },
+  computed: {},
+  created() {
+    console.log('navigator load');
+    this.topInfo = wx.getSystemInfoSync();
+    this.leftRectPosition = wx.getMenuButtonBoundingClientRect();
+    console.log(this.leftRectPosition);
+  },
+  methods: {
+
+  },
+});
+</script>

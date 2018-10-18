@@ -1,0 +1,24 @@
+<style lang='less'>
+.container {
+  width: 100vw;
+}
+</style>
+<template>
+  <view class="container">
+
+  </view>
+</template>
+<script>
+import wepy from '@wepy/core';
+
+wepy.page({
+  onLoad() {},
+});
+</script>
+<config>
+  {
+    usingComponents: {
+      toptab: '~@/components/toptab',
+    }
+  }
+</config>

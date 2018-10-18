@@ -1,0 +1,16 @@
+{
+	"description": "记录生活",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"appid": "wx9b6aff25505d9d03",
+	"projectname": "record2.0",
+	"miniprogramRoot": "./weapp",
+	"libVersion": "2.3.0",
+	"condition": {}
+}

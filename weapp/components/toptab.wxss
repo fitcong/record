@@ -1,0 +1,39 @@
+.top-title {
+  width: 100vw;
+  position: relative;
+  background-color: #fff;
+  z-index: 99999;
+}
+.top-title .tt__status {
+  width: 100vw;
+}
+.top-title .tt__main {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+}
+.top-title .tt__main__back {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+.top-title .tt__main__back .arrow {
+  height: 20px;
+  width: 20px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.top-title .tt__main__back .separate {
+  height: 20px;
+  width: 1.5px;
+  background: #333;
+}
+.top-title .tt__main__back .home {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+

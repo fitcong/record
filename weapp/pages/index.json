@@ -1,0 +1,10 @@
+{
+    "navigationBarTitleText": "WePY 2.0 Feature Demo",
+    "component": true,
+    "usingComponents": {
+        "panel": "../components/panel",
+        "list": "../components/wepy-list",
+        "group": "../components/group",
+        "slide-view": "../$vendor/miniprogram-slide-view/miniprogram_dist/index"
+    }
+}
