@@ -43,7 +43,7 @@
     <view class="tt__status" style=" height:{{topInfo.statusBarHeight}}px;"></view>
     <view class="tt__main">
       <view class="tt__main__back">
-        <image class="arrow" @tap="back" src="/images/back-black.png" mode="aspectFill"></image>
+        <image class="arrow" @tap="back" src="../images/back-black.png" mode="aspectFill"></image>
         <view class="separate"></view>
         <image class="home" @tap="backHome" src="/images/home-black.png" mode="aspectFill"></image>
       </view>

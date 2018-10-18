@@ -1,11 +1,9 @@
 <style lang='less'>
-.container {
-  width: 100vw;
-}
+.container{}
 </style>
 <template>
-  <view class="container">
-
+  <view class='container'>
+    <toptab></toptab>
   </view>
 </template>
 <script>
